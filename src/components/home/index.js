@@ -19,6 +19,7 @@ export default class Home extends Component {
         const component = CapsLog.map(c => {
             return <Caps name={c.movie} picture={c.pathcaps} key={id++}/>
         });
+
         let component2 = _.sample(component);
         return (
             <div>

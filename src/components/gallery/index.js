@@ -11,7 +11,6 @@ class Caps extends Component {
         )
     }
 }
-
 export default class Gallery extends Component {
     constructor() {
         super();
