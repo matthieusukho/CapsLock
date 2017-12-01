@@ -7,7 +7,7 @@ import {
 import Home from './components/home';
 import Profile from './components/profile';
 import error404 from './components/404';
-import Galery from './components/gallery';
+import Gallery from './components/gallery';
 import Sign from './components/sign';
 import App from './components/app';
 
@@ -18,7 +18,7 @@ const MyRoute = () => (
                 <Switch>
                     <Route exact path="/" component={Home} />
                     <Route path="/profile" component={Profile} />
-                    <Route path="/galery" component={Galery} />
+                    <Route path="/gallery" component={Gallery} />
                     <Route path="/sign" component={Sign} />
                     <Route component={error404} />
                 </Switch>
