@@ -17,10 +17,10 @@ const MyRoute = () => (
             <App name='layout'>
                 <Switch>
                     <Route exact path="/" component={Home} />
-                    <Route path="/profile" component={Profile} />
-                    <Route path="/gallery" component={Gallery} />
-                    <Route path="/sign" component={Sign} />
-                    <Route component={error404} />
+                    <Route exact path="/profile" component={Profile} />
+                    <Route exact path="/gallery" component={Gallery} />
+                    <Route exact path="/sign" component={Sign} />
+                    <Route to="/404" component={error404} />
                 </Switch>
             </App>
         </div>
