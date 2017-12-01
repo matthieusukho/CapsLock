@@ -10,16 +10,19 @@ class App extends Component {
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
                 <h1 className="App-title">Welcome to CapsLock Corp</h1>
-                <nav className='App-nav'>
-                    <Link to='/'>Home</Link> &nbsp; &nbsp;
-                    <Link to='/gallery'>Gallery</Link> &nbsp; &nbsp;
-                    <Link to='/profile'>Profile</Link>
+                <nav className="navbar" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <Link to='/' class="navbar-item">Home</Link> 
+                    <Link to='/gallery' class="navbar-item" >Gallery</Link> 
+                    <Link to='/profile' class="navbar-item">Profile</Link>
+                </div>
                 </nav>
             </header>
-            <h1>Yolo</h1>
         </div>
     );
   }
 }
 
 export default App;
+
+
