@@ -3,6 +3,7 @@ import logo from '../../capslock.svg';
 import './App.css';
 import {Link} from 'react-router-dom';
 
+
 class App extends Component {
   render() {
     return (
@@ -16,7 +17,7 @@ class App extends Component {
                     <Link to='/profile'>Profile</Link>
                 </nav>
             </header>
-            <h1>Yolo</h1>
+            {this.props.children}
         </div>
     );
   }
