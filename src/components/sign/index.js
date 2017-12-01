@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Sign = () => (
-    <h1> Homepage </h1>
+    <h1> Sign </h1>
 );
 
 export default Sign;
